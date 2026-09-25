@@ -1,0 +1,18 @@
+video,track_id,total_seconds,mean_diff,motion_spikes_gt_8,old_logic_pass_W30,old_logic_pass_W60,old_logic_pass_W100,old_best_pass,new_streak_thresh8_sec,new_streak_thresh5_sec,new_logic_pass_streak30,new_logic_pass_streak60,new_logic_pass_streak100,new_logic_pass_streak200,old_vs_new_verdict,chart
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,1,44,4.51,1,PASS,FAIL,FAIL,"(10, (0, 5))",36,14,PASS,FAIL,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_1_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,2,96,5.05,3,PASS,PASS,FAIL,"(10, (0, 8))",87,28,PASS,PASS,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_2_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,3,6,2.81,0,FAIL,FAIL,FAIL,,6,6,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_3_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,8,19,3.73,0,FAIL,FAIL,FAIL,"(10, (0, 5))",19,19,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_8_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,9,17,1.7,0,FAIL,FAIL,FAIL,"(10, (0, 3))",17,17,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_9_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,10,14,3.08,1,FAIL,FAIL,FAIL,"(10, (0, 5))",13,12,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_10_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,11,14,2.13,0,FAIL,FAIL,FAIL,"(10, (0, 3))",14,13,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_11_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,12,23,6.96,1,FAIL,FAIL,FAIL,"(10, (0, 8))",17,0,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_12_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,13,10,5.27,1,FAIL,FAIL,FAIL,"(10, (0, 8))",7,5,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_13_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,15,33,4.91,0,PASS,FAIL,FAIL,"(10, (0, 8))",33,13,PASS,FAIL,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_15_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,16,79,6.61,2,PASS,PASS,FAIL,"(10, (0, 8))",68,9,PASS,PASS,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_16_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,17,38,8.12,31,FAIL,FAIL,FAIL,"(10, (0, 10))",5,0,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_17_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,18,42,2.48,0,PASS,FAIL,FAIL,"(10, (0, 3))",42,42,PASS,FAIL,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_18_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,19,9,2.04,0,FAIL,FAIL,FAIL,,9,9,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_19_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,21,8,1.58,0,FAIL,FAIL,FAIL,,8,8,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_21_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,22,6,3.81,0,FAIL,FAIL,FAIL,,6,6,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_22_comparison.png
+20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,23,6,1.83,0,FAIL,FAIL,FAIL,,6,6,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_23_comparison.png

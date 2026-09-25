@@ -1,0 +1,1793 @@
+{
+  "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3": [
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 1,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 475,
+      "new_best_threshold": 10,
+      "chart": "track_1_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 2,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 10,
+      "chart": "track_2_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 3,
+      "total_diffed_frames": 368,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 368,
+      "new_best_threshold": 8,
+      "chart": "track_3_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 6,
+      "total_diffed_frames": 6,
+      "old_best_pass": null,
+      "new_longest_streak": 6,
+      "new_best_threshold": 5,
+      "chart": "track_6_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 7,
+      "total_diffed_frames": 7,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 10,
+      "chart": "track_7_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 9,
+      "total_diffed_frames": 22,
+      "old_best_pass": null,
+      "new_longest_streak": 22,
+      "new_best_threshold": 5,
+      "chart": "track_9_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 10,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_10_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 12,
+      "total_diffed_frames": 9,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 10,
+      "chart": "track_12_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 13,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 468,
+      "new_best_threshold": 10,
+      "chart": "track_13_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 15,
+      "total_diffed_frames": 31,
+      "old_best_pass": null,
+      "new_longest_streak": 31,
+      "new_best_threshold": 5,
+      "chart": "track_15_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 17,
+      "total_diffed_frames": 19,
+      "old_best_pass": null,
+      "new_longest_streak": 13,
+      "new_best_threshold": 10,
+      "chart": "track_17_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 18,
+      "total_diffed_frames": 29,
+      "old_best_pass": null,
+      "new_longest_streak": 29,
+      "new_best_threshold": 8,
+      "chart": "track_18_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 19,
+      "total_diffed_frames": 5,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 5,
+      "chart": "track_19_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 26,
+      "total_diffed_frames": 29,
+      "old_best_pass": null,
+      "new_longest_streak": 29,
+      "new_best_threshold": 5,
+      "chart": "track_26_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 27,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_27_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 29,
+      "total_diffed_frames": 16,
+      "old_best_pass": null,
+      "new_longest_streak": 1,
+      "new_best_threshold": 10,
+      "chart": "track_29_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 30,
+      "total_diffed_frames": 26,
+      "old_best_pass": null,
+      "new_longest_streak": 26,
+      "new_best_threshold": 8,
+      "chart": "track_30_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 33,
+      "total_diffed_frames": 14,
+      "old_best_pass": null,
+      "new_longest_streak": 14,
+      "new_best_threshold": 5,
+      "chart": "track_33_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 36,
+      "total_diffed_frames": 291,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          10
+        ]
+      ],
+      "new_longest_streak": 53,
+      "new_best_threshold": 10,
+      "chart": "track_36_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 35,
+      "total_diffed_frames": 13,
+      "old_best_pass": null,
+      "new_longest_streak": 4,
+      "new_best_threshold": 8,
+      "chart": "track_35_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 37,
+      "total_diffed_frames": 19,
+      "old_best_pass": null,
+      "new_longest_streak": 18,
+      "new_best_threshold": 10,
+      "chart": "track_37_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 38,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_38_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 40,
+      "total_diffed_frames": 6,
+      "old_best_pass": null,
+      "new_longest_streak": 6,
+      "new_best_threshold": 5,
+      "chart": "track_40_comparison.png"
+    },
+    {
+      "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+      "track_id": 42,
+      "total_diffed_frames": 191,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 122,
+      "new_best_threshold": 8,
+      "chart": "track_42_comparison.png"
+    }
+  ],
+  "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2": [
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 1,
+      "total_diffed_frames": 320,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 174,
+      "new_best_threshold": 5,
+      "chart": "track_1_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 2,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 469,
+      "new_best_threshold": 10,
+      "chart": "track_2_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 3,
+      "total_diffed_frames": 89,
+      "old_best_pass": null,
+      "new_longest_streak": 67,
+      "new_best_threshold": 10,
+      "chart": "track_3_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 4,
+      "total_diffed_frames": 11,
+      "old_best_pass": null,
+      "new_longest_streak": 11,
+      "new_best_threshold": 5,
+      "chart": "track_4_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 5,
+      "total_diffed_frames": 34,
+      "old_best_pass": null,
+      "new_longest_streak": 34,
+      "new_best_threshold": 5,
+      "chart": "track_5_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 6,
+      "total_diffed_frames": 24,
+      "old_best_pass": null,
+      "new_longest_streak": 24,
+      "new_best_threshold": 5,
+      "chart": "track_6_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 7,
+      "total_diffed_frames": 17,
+      "old_best_pass": null,
+      "new_longest_streak": 17,
+      "new_best_threshold": 5,
+      "chart": "track_7_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 8,
+      "total_diffed_frames": 5,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 5,
+      "chart": "track_8_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 9,
+      "total_diffed_frames": 5,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 5,
+      "chart": "track_9_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 10,
+      "total_diffed_frames": 347,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 40,
+      "new_best_threshold": 10,
+      "chart": "track_10_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 11,
+      "total_diffed_frames": 91,
+      "old_best_pass": null,
+      "new_longest_streak": 91,
+      "new_best_threshold": 5,
+      "chart": "track_11_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 12,
+      "total_diffed_frames": 78,
+      "old_best_pass": null,
+      "new_longest_streak": 58,
+      "new_best_threshold": 10,
+      "chart": "track_12_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 13,
+      "total_diffed_frames": 17,
+      "old_best_pass": null,
+      "new_longest_streak": 17,
+      "new_best_threshold": 5,
+      "chart": "track_13_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 16,
+      "total_diffed_frames": 51,
+      "old_best_pass": null,
+      "new_longest_streak": 50,
+      "new_best_threshold": 10,
+      "chart": "track_16_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 17,
+      "total_diffed_frames": 67,
+      "old_best_pass": null,
+      "new_longest_streak": 47,
+      "new_best_threshold": 10,
+      "chart": "track_17_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 18,
+      "total_diffed_frames": 65,
+      "old_best_pass": null,
+      "new_longest_streak": 65,
+      "new_best_threshold": 10,
+      "chart": "track_18_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 19,
+      "total_diffed_frames": 15,
+      "old_best_pass": null,
+      "new_longest_streak": 15,
+      "new_best_threshold": 8,
+      "chart": "track_19_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 20,
+      "total_diffed_frames": 29,
+      "old_best_pass": null,
+      "new_longest_streak": 14,
+      "new_best_threshold": 10,
+      "chart": "track_20_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 22,
+      "total_diffed_frames": 22,
+      "old_best_pass": null,
+      "new_longest_streak": 22,
+      "new_best_threshold": 5,
+      "chart": "track_22_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 24,
+      "total_diffed_frames": 8,
+      "old_best_pass": null,
+      "new_longest_streak": 8,
+      "new_best_threshold": 5,
+      "chart": "track_24_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 25,
+      "total_diffed_frames": 367,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 367,
+      "new_best_threshold": 5,
+      "chart": "track_25_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 26,
+      "total_diffed_frames": 95,
+      "old_best_pass": null,
+      "new_longest_streak": 95,
+      "new_best_threshold": 5,
+      "chart": "track_26_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 27,
+      "total_diffed_frames": 320,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 320,
+      "new_best_threshold": 5,
+      "chart": "track_27_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 28,
+      "total_diffed_frames": 5,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 5,
+      "chart": "track_28_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 29,
+      "total_diffed_frames": 205,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 205,
+      "new_best_threshold": 5,
+      "chart": "track_29_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 34,
+      "total_diffed_frames": 62,
+      "old_best_pass": null,
+      "new_longest_streak": 62,
+      "new_best_threshold": 5,
+      "chart": "track_34_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 35,
+      "total_diffed_frames": 62,
+      "old_best_pass": null,
+      "new_longest_streak": 62,
+      "new_best_threshold": 5,
+      "chart": "track_35_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 36,
+      "total_diffed_frames": 19,
+      "old_best_pass": null,
+      "new_longest_streak": 19,
+      "new_best_threshold": 5,
+      "chart": "track_36_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 37,
+      "total_diffed_frames": 60,
+      "old_best_pass": null,
+      "new_longest_streak": 13,
+      "new_best_threshold": 10,
+      "chart": "track_37_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 38,
+      "total_diffed_frames": 97,
+      "old_best_pass": null,
+      "new_longest_streak": 97,
+      "new_best_threshold": 5,
+      "chart": "track_38_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 39,
+      "total_diffed_frames": 64,
+      "old_best_pass": null,
+      "new_longest_streak": 53,
+      "new_best_threshold": 10,
+      "chart": "track_39_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 40,
+      "total_diffed_frames": 12,
+      "old_best_pass": null,
+      "new_longest_streak": 12,
+      "new_best_threshold": 5,
+      "chart": "track_40_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 41,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_41_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 42,
+      "total_diffed_frames": 46,
+      "old_best_pass": null,
+      "new_longest_streak": 46,
+      "new_best_threshold": 5,
+      "chart": "track_42_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 43,
+      "total_diffed_frames": 76,
+      "old_best_pass": null,
+      "new_longest_streak": 76,
+      "new_best_threshold": 5,
+      "chart": "track_43_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 45,
+      "total_diffed_frames": 106,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 106,
+      "new_best_threshold": 8,
+      "chart": "track_45_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 46,
+      "total_diffed_frames": 17,
+      "old_best_pass": null,
+      "new_longest_streak": 17,
+      "new_best_threshold": 5,
+      "chart": "track_46_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 48,
+      "total_diffed_frames": 46,
+      "old_best_pass": null,
+      "new_longest_streak": 46,
+      "new_best_threshold": 5,
+      "chart": "track_48_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 49,
+      "total_diffed_frames": 9,
+      "old_best_pass": null,
+      "new_longest_streak": 9,
+      "new_best_threshold": 5,
+      "chart": "track_49_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 50,
+      "total_diffed_frames": 144,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 89,
+      "new_best_threshold": 10,
+      "chart": "track_50_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 51,
+      "total_diffed_frames": 96,
+      "old_best_pass": null,
+      "new_longest_streak": 72,
+      "new_best_threshold": 8,
+      "chart": "track_51_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 52,
+      "total_diffed_frames": 10,
+      "old_best_pass": null,
+      "new_longest_streak": 10,
+      "new_best_threshold": 5,
+      "chart": "track_52_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 53,
+      "total_diffed_frames": 19,
+      "old_best_pass": null,
+      "new_longest_streak": 19,
+      "new_best_threshold": 8,
+      "chart": "track_53_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 54,
+      "total_diffed_frames": 37,
+      "old_best_pass": null,
+      "new_longest_streak": 37,
+      "new_best_threshold": 8,
+      "chart": "track_54_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 55,
+      "total_diffed_frames": 10,
+      "old_best_pass": null,
+      "new_longest_streak": 10,
+      "new_best_threshold": 5,
+      "chart": "track_55_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 58,
+      "total_diffed_frames": 69,
+      "old_best_pass": null,
+      "new_longest_streak": 3,
+      "new_best_threshold": 10,
+      "chart": "track_58_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 59,
+      "total_diffed_frames": 36,
+      "old_best_pass": null,
+      "new_longest_streak": 36,
+      "new_best_threshold": 5,
+      "chart": "track_59_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 60,
+      "total_diffed_frames": 27,
+      "old_best_pass": null,
+      "new_longest_streak": 27,
+      "new_best_threshold": 5,
+      "chart": "track_60_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 61,
+      "total_diffed_frames": 51,
+      "old_best_pass": null,
+      "new_longest_streak": 44,
+      "new_best_threshold": 10,
+      "chart": "track_61_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 62,
+      "total_diffed_frames": 68,
+      "old_best_pass": null,
+      "new_longest_streak": 68,
+      "new_best_threshold": 10,
+      "chart": "track_62_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 63,
+      "total_diffed_frames": 17,
+      "old_best_pass": null,
+      "new_longest_streak": 17,
+      "new_best_threshold": 8,
+      "chart": "track_63_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 64,
+      "total_diffed_frames": 17,
+      "old_best_pass": null,
+      "new_longest_streak": 17,
+      "new_best_threshold": 5,
+      "chart": "track_64_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 65,
+      "total_diffed_frames": 31,
+      "old_best_pass": null,
+      "new_longest_streak": 31,
+      "new_best_threshold": 8,
+      "chart": "track_65_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 67,
+      "total_diffed_frames": 18,
+      "old_best_pass": null,
+      "new_longest_streak": 18,
+      "new_best_threshold": 8,
+      "chart": "track_67_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 69,
+      "total_diffed_frames": 467,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 467,
+      "new_best_threshold": 8,
+      "chart": "track_69_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 70,
+      "total_diffed_frames": 36,
+      "old_best_pass": null,
+      "new_longest_streak": 36,
+      "new_best_threshold": 5,
+      "chart": "track_70_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 71,
+      "total_diffed_frames": 113,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 113,
+      "new_best_threshold": 5,
+      "chart": "track_71_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 72,
+      "total_diffed_frames": 463,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 463,
+      "new_best_threshold": 8,
+      "chart": "track_72_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 73,
+      "total_diffed_frames": 33,
+      "old_best_pass": null,
+      "new_longest_streak": 33,
+      "new_best_threshold": 5,
+      "chart": "track_73_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 74,
+      "total_diffed_frames": 35,
+      "old_best_pass": null,
+      "new_longest_streak": 35,
+      "new_best_threshold": 5,
+      "chart": "track_74_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 75,
+      "total_diffed_frames": 20,
+      "old_best_pass": null,
+      "new_longest_streak": 20,
+      "new_best_threshold": 5,
+      "chart": "track_75_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 76,
+      "total_diffed_frames": 141,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          10
+        ]
+      ],
+      "new_longest_streak": 141,
+      "new_best_threshold": 10,
+      "chart": "track_76_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 77,
+      "total_diffed_frames": 13,
+      "old_best_pass": null,
+      "new_longest_streak": 13,
+      "new_best_threshold": 5,
+      "chart": "track_77_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 81,
+      "total_diffed_frames": 329,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 329,
+      "new_best_threshold": 8,
+      "chart": "track_81_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 82,
+      "total_diffed_frames": 118,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 118,
+      "new_best_threshold": 5,
+      "chart": "track_82_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 83,
+      "total_diffed_frames": 352,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 352,
+      "new_best_threshold": 5,
+      "chart": "track_83_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 85,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 8,
+      "chart": "track_85_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 84,
+      "total_diffed_frames": 86,
+      "old_best_pass": null,
+      "new_longest_streak": 86,
+      "new_best_threshold": 5,
+      "chart": "track_84_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 86,
+      "total_diffed_frames": 5,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 5,
+      "chart": "track_86_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 87,
+      "total_diffed_frames": 66,
+      "old_best_pass": null,
+      "new_longest_streak": 66,
+      "new_best_threshold": 5,
+      "chart": "track_87_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 88,
+      "total_diffed_frames": 96,
+      "old_best_pass": null,
+      "new_longest_streak": 96,
+      "new_best_threshold": 5,
+      "chart": "track_88_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 89,
+      "total_diffed_frames": 146,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 146,
+      "new_best_threshold": 5,
+      "chart": "track_89_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 90,
+      "total_diffed_frames": 29,
+      "old_best_pass": null,
+      "new_longest_streak": 29,
+      "new_best_threshold": 5,
+      "chart": "track_90_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 91,
+      "total_diffed_frames": 196,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 196,
+      "new_best_threshold": 5,
+      "chart": "track_91_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 92,
+      "total_diffed_frames": 254,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 254,
+      "new_best_threshold": 5,
+      "chart": "track_92_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 93,
+      "total_diffed_frames": 46,
+      "old_best_pass": null,
+      "new_longest_streak": 46,
+      "new_best_threshold": 5,
+      "chart": "track_93_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 94,
+      "total_diffed_frames": 46,
+      "old_best_pass": null,
+      "new_longest_streak": 46,
+      "new_best_threshold": 5,
+      "chart": "track_94_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 95,
+      "total_diffed_frames": 29,
+      "old_best_pass": null,
+      "new_longest_streak": 29,
+      "new_best_threshold": 5,
+      "chart": "track_95_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 96,
+      "total_diffed_frames": 29,
+      "old_best_pass": null,
+      "new_longest_streak": 29,
+      "new_best_threshold": 5,
+      "chart": "track_96_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 97,
+      "total_diffed_frames": 31,
+      "old_best_pass": null,
+      "new_longest_streak": 31,
+      "new_best_threshold": 5,
+      "chart": "track_97_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 98,
+      "total_diffed_frames": 44,
+      "old_best_pass": null,
+      "new_longest_streak": 44,
+      "new_best_threshold": 5,
+      "chart": "track_98_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 99,
+      "total_diffed_frames": 119,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 119,
+      "new_best_threshold": 5,
+      "chart": "track_99_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 100,
+      "total_diffed_frames": 119,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 119,
+      "new_best_threshold": 5,
+      "chart": "track_100_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 101,
+      "total_diffed_frames": 58,
+      "old_best_pass": null,
+      "new_longest_streak": 57,
+      "new_best_threshold": 5,
+      "chart": "track_101_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 102,
+      "total_diffed_frames": 10,
+      "old_best_pass": null,
+      "new_longest_streak": 10,
+      "new_best_threshold": 8,
+      "chart": "track_102_comparison.png"
+    },
+    {
+      "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 103,
+      "total_diffed_frames": 6,
+      "old_best_pass": null,
+      "new_longest_streak": 6,
+      "new_best_threshold": 5,
+      "chart": "track_103_comparison.png"
+    }
+  ],
+  "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2": [
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 1,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_1_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 2,
+      "total_diffed_frames": 53,
+      "old_best_pass": null,
+      "new_longest_streak": 53,
+      "new_best_threshold": 5,
+      "chart": "track_2_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 3,
+      "total_diffed_frames": 26,
+      "old_best_pass": null,
+      "new_longest_streak": 26,
+      "new_best_threshold": 5,
+      "chart": "track_3_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 4,
+      "total_diffed_frames": 13,
+      "old_best_pass": null,
+      "new_longest_streak": 13,
+      "new_best_threshold": 5,
+      "chart": "track_4_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 6,
+      "total_diffed_frames": 27,
+      "old_best_pass": null,
+      "new_longest_streak": 27,
+      "new_best_threshold": 5,
+      "chart": "track_6_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 7,
+      "total_diffed_frames": 23,
+      "old_best_pass": null,
+      "new_longest_streak": 23,
+      "new_best_threshold": 5,
+      "chart": "track_7_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 8,
+      "total_diffed_frames": 27,
+      "old_best_pass": null,
+      "new_longest_streak": 27,
+      "new_best_threshold": 5,
+      "chart": "track_8_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 10,
+      "total_diffed_frames": 292,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          10
+        ]
+      ],
+      "new_longest_streak": 89,
+      "new_best_threshold": 10,
+      "chart": "track_10_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 14,
+      "total_diffed_frames": 22,
+      "old_best_pass": null,
+      "new_longest_streak": 22,
+      "new_best_threshold": 5,
+      "chart": "track_14_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 15,
+      "total_diffed_frames": 20,
+      "old_best_pass": null,
+      "new_longest_streak": 20,
+      "new_best_threshold": 5,
+      "chart": "track_15_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 16,
+      "total_diffed_frames": 16,
+      "old_best_pass": null,
+      "new_longest_streak": 16,
+      "new_best_threshold": 8,
+      "chart": "track_16_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 17,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_17_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 18,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_18_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 19,
+      "total_diffed_frames": 50,
+      "old_best_pass": null,
+      "new_longest_streak": 50,
+      "new_best_threshold": 5,
+      "chart": "track_19_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 20,
+      "total_diffed_frames": 11,
+      "old_best_pass": null,
+      "new_longest_streak": 6,
+      "new_best_threshold": 10,
+      "chart": "track_20_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 22,
+      "total_diffed_frames": 11,
+      "old_best_pass": null,
+      "new_longest_streak": 2,
+      "new_best_threshold": 8,
+      "chart": "track_22_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 23,
+      "total_diffed_frames": 69,
+      "old_best_pass": null,
+      "new_longest_streak": 69,
+      "new_best_threshold": 5,
+      "chart": "track_23_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 26,
+      "total_diffed_frames": 50,
+      "old_best_pass": null,
+      "new_longest_streak": 50,
+      "new_best_threshold": 10,
+      "chart": "track_26_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 29,
+      "total_diffed_frames": 411,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 411,
+      "new_best_threshold": 5,
+      "chart": "track_29_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 30,
+      "total_diffed_frames": 15,
+      "old_best_pass": null,
+      "new_longest_streak": 15,
+      "new_best_threshold": 5,
+      "chart": "track_30_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 31,
+      "total_diffed_frames": 64,
+      "old_best_pass": null,
+      "new_longest_streak": 64,
+      "new_best_threshold": 5,
+      "chart": "track_31_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 32,
+      "total_diffed_frames": 47,
+      "old_best_pass": null,
+      "new_longest_streak": 47,
+      "new_best_threshold": 5,
+      "chart": "track_32_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 33,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          10
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 10,
+      "chart": "track_33_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 37,
+      "total_diffed_frames": 24,
+      "old_best_pass": null,
+      "new_longest_streak": 24,
+      "new_best_threshold": 5,
+      "chart": "track_37_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 39,
+      "total_diffed_frames": 42,
+      "old_best_pass": null,
+      "new_longest_streak": 42,
+      "new_best_threshold": 5,
+      "chart": "track_39_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 42,
+      "total_diffed_frames": 110,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 110,
+      "new_best_threshold": 5,
+      "chart": "track_42_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 43,
+      "total_diffed_frames": 39,
+      "old_best_pass": null,
+      "new_longest_streak": 39,
+      "new_best_threshold": 5,
+      "chart": "track_43_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 44,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_44_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 45,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_45_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 46,
+      "total_diffed_frames": 168,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 168,
+      "new_best_threshold": 5,
+      "chart": "track_46_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 47,
+      "total_diffed_frames": 29,
+      "old_best_pass": null,
+      "new_longest_streak": 29,
+      "new_best_threshold": 5,
+      "chart": "track_47_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 48,
+      "total_diffed_frames": 46,
+      "old_best_pass": null,
+      "new_longest_streak": 46,
+      "new_best_threshold": 5,
+      "chart": "track_48_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 49,
+      "total_diffed_frames": 191,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 191,
+      "new_best_threshold": 5,
+      "chart": "track_49_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 50,
+      "total_diffed_frames": 76,
+      "old_best_pass": null,
+      "new_longest_streak": 76,
+      "new_best_threshold": 5,
+      "chart": "track_50_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 51,
+      "total_diffed_frames": 54,
+      "old_best_pass": null,
+      "new_longest_streak": 54,
+      "new_best_threshold": 5,
+      "chart": "track_51_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 52,
+      "total_diffed_frames": 348,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          3
+        ]
+      ],
+      "new_longest_streak": 348,
+      "new_best_threshold": 5,
+      "chart": "track_52_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 53,
+      "total_diffed_frames": 44,
+      "old_best_pass": null,
+      "new_longest_streak": 44,
+      "new_best_threshold": 10,
+      "chart": "track_53_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 54,
+      "total_diffed_frames": 46,
+      "old_best_pass": null,
+      "new_longest_streak": 46,
+      "new_best_threshold": 5,
+      "chart": "track_54_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 55,
+      "total_diffed_frames": 69,
+      "old_best_pass": null,
+      "new_longest_streak": 69,
+      "new_best_threshold": 5,
+      "chart": "track_55_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 56,
+      "total_diffed_frames": 65,
+      "old_best_pass": null,
+      "new_longest_streak": 3,
+      "new_best_threshold": 10,
+      "chart": "track_56_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 58,
+      "total_diffed_frames": 74,
+      "old_best_pass": null,
+      "new_longest_streak": 74,
+      "new_best_threshold": 5,
+      "chart": "track_58_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 59,
+      "total_diffed_frames": 52,
+      "old_best_pass": null,
+      "new_longest_streak": 52,
+      "new_best_threshold": 5,
+      "chart": "track_59_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 60,
+      "total_diffed_frames": 37,
+      "old_best_pass": null,
+      "new_longest_streak": 37,
+      "new_best_threshold": 5,
+      "chart": "track_60_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 61,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_61_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 63,
+      "total_diffed_frames": 96,
+      "old_best_pass": null,
+      "new_longest_streak": 17,
+      "new_best_threshold": 10,
+      "chart": "track_63_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 67,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          5
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 5,
+      "chart": "track_67_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 68,
+      "total_diffed_frames": 84,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 5,
+      "chart": "track_68_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 70,
+      "total_diffed_frames": 500,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 500,
+      "new_best_threshold": 8,
+      "chart": "track_70_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 73,
+      "total_diffed_frames": 127,
+      "old_best_pass": [
+        100,
+        [
+          0,
+          8
+        ]
+      ],
+      "new_longest_streak": 127,
+      "new_best_threshold": 8,
+      "chart": "track_73_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 74,
+      "total_diffed_frames": 96,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 10,
+      "chart": "track_74_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 76,
+      "total_diffed_frames": 93,
+      "old_best_pass": null,
+      "new_longest_streak": 93,
+      "new_best_threshold": 8,
+      "chart": "track_76_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 77,
+      "total_diffed_frames": 7,
+      "old_best_pass": null,
+      "new_longest_streak": 2,
+      "new_best_threshold": 10,
+      "chart": "track_77_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 79,
+      "total_diffed_frames": 32,
+      "old_best_pass": null,
+      "new_longest_streak": 32,
+      "new_best_threshold": 5,
+      "chart": "track_79_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 80,
+      "total_diffed_frames": 24,
+      "old_best_pass": null,
+      "new_longest_streak": 24,
+      "new_best_threshold": 5,
+      "chart": "track_80_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 81,
+      "total_diffed_frames": 17,
+      "old_best_pass": null,
+      "new_longest_streak": 17,
+      "new_best_threshold": 5,
+      "chart": "track_81_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 82,
+      "total_diffed_frames": 5,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 5,
+      "chart": "track_82_comparison.png"
+    },
+    {
+      "video": "20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+      "track_id": 83,
+      "total_diffed_frames": 5,
+      "old_best_pass": null,
+      "new_longest_streak": 5,
+      "new_best_threshold": 5,
+      "chart": "track_83_comparison.png"
+    }
+  ]
+}

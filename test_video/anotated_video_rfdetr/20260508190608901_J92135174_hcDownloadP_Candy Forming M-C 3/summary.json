@@ -1,0 +1,272 @@
+[
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 1,
+    "total_diffed_frames": 500,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_longest_streak": 475,
+    "new_best_threshold": 10,
+    "chart": "track_1_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 2,
+    "total_diffed_frames": 500,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_longest_streak": 500,
+    "new_best_threshold": 10,
+    "chart": "track_2_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 3,
+    "total_diffed_frames": 368,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_longest_streak": 368,
+    "new_best_threshold": 8,
+    "chart": "track_3_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 6,
+    "total_diffed_frames": 6,
+    "old_best_pass": null,
+    "new_longest_streak": 6,
+    "new_best_threshold": 5,
+    "chart": "track_6_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 7,
+    "total_diffed_frames": 7,
+    "old_best_pass": null,
+    "new_longest_streak": 5,
+    "new_best_threshold": 10,
+    "chart": "track_7_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 9,
+    "total_diffed_frames": 22,
+    "old_best_pass": null,
+    "new_longest_streak": 22,
+    "new_best_threshold": 5,
+    "chart": "track_9_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 10,
+    "total_diffed_frames": 500,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        5
+      ]
+    ],
+    "new_longest_streak": 500,
+    "new_best_threshold": 5,
+    "chart": "track_10_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 12,
+    "total_diffed_frames": 9,
+    "old_best_pass": null,
+    "new_longest_streak": 5,
+    "new_best_threshold": 10,
+    "chart": "track_12_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 13,
+    "total_diffed_frames": 500,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_longest_streak": 468,
+    "new_best_threshold": 10,
+    "chart": "track_13_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 15,
+    "total_diffed_frames": 31,
+    "old_best_pass": null,
+    "new_longest_streak": 31,
+    "new_best_threshold": 5,
+    "chart": "track_15_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 17,
+    "total_diffed_frames": 19,
+    "old_best_pass": null,
+    "new_longest_streak": 13,
+    "new_best_threshold": 10,
+    "chart": "track_17_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 18,
+    "total_diffed_frames": 29,
+    "old_best_pass": null,
+    "new_longest_streak": 29,
+    "new_best_threshold": 8,
+    "chart": "track_18_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 19,
+    "total_diffed_frames": 5,
+    "old_best_pass": null,
+    "new_longest_streak": 5,
+    "new_best_threshold": 5,
+    "chart": "track_19_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 26,
+    "total_diffed_frames": 29,
+    "old_best_pass": null,
+    "new_longest_streak": 29,
+    "new_best_threshold": 5,
+    "chart": "track_26_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 27,
+    "total_diffed_frames": 500,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        5
+      ]
+    ],
+    "new_longest_streak": 500,
+    "new_best_threshold": 5,
+    "chart": "track_27_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 29,
+    "total_diffed_frames": 16,
+    "old_best_pass": null,
+    "new_longest_streak": 1,
+    "new_best_threshold": 10,
+    "chart": "track_29_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 30,
+    "total_diffed_frames": 26,
+    "old_best_pass": null,
+    "new_longest_streak": 26,
+    "new_best_threshold": 8,
+    "chart": "track_30_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 33,
+    "total_diffed_frames": 14,
+    "old_best_pass": null,
+    "new_longest_streak": 14,
+    "new_best_threshold": 5,
+    "chart": "track_33_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 36,
+    "total_diffed_frames": 291,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        10
+      ]
+    ],
+    "new_longest_streak": 53,
+    "new_best_threshold": 10,
+    "chart": "track_36_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 35,
+    "total_diffed_frames": 13,
+    "old_best_pass": null,
+    "new_longest_streak": 4,
+    "new_best_threshold": 8,
+    "chart": "track_35_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 37,
+    "total_diffed_frames": 19,
+    "old_best_pass": null,
+    "new_longest_streak": 18,
+    "new_best_threshold": 10,
+    "chart": "track_37_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 38,
+    "total_diffed_frames": 500,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        5
+      ]
+    ],
+    "new_longest_streak": 500,
+    "new_best_threshold": 5,
+    "chart": "track_38_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 40,
+    "total_diffed_frames": 6,
+    "old_best_pass": null,
+    "new_longest_streak": 6,
+    "new_best_threshold": 5,
+    "chart": "track_40_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 42,
+    "total_diffed_frames": 191,
+    "old_best_pass": [
+      100,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_longest_streak": 122,
+    "new_best_threshold": 8,
+    "chart": "track_42_comparison.png"
+  }
+]

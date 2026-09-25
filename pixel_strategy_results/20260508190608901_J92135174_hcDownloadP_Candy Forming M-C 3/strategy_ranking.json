@@ -1,0 +1,100 @@
+[
+  {
+    "rank": 1,
+    "metric": "MOG2",
+    "label": "#10 MOG2 FG ratio",
+    "median_streak_pct": 0.2,
+    "mean_streak_pct": 0.18
+  },
+  {
+    "rank": 2,
+    "metric": "PHASH",
+    "label": "#14 pHash Hamming",
+    "median_streak_pct": 0.17,
+    "mean_streak_pct": 0.21
+  },
+  {
+    "rank": 3,
+    "metric": "SSIM",
+    "label": "#4  1-SSIM",
+    "median_streak_pct": 0.16,
+    "mean_streak_pct": 0.16
+  },
+  {
+    "rank": 4,
+    "metric": "MS_SSIM",
+    "label": "#5  1-MS-SSIM",
+    "median_streak_pct": 0.16,
+    "mean_streak_pct": 0.16
+  },
+  {
+    "rank": 5,
+    "metric": "MSE",
+    "label": "#2  MSE",
+    "median_streak_pct": 0.09,
+    "mean_streak_pct": 0.13
+  },
+  {
+    "rank": 6,
+    "metric": "MAD",
+    "label": "#1  MAD (baseline)",
+    "median_streak_pct": 0.09,
+    "mean_streak_pct": 0.13
+  },
+  {
+    "rank": 7,
+    "metric": "SAD",
+    "label": "#3  SAD",
+    "median_streak_pct": 0.09,
+    "mean_streak_pct": 0.13
+  },
+  {
+    "rank": 8,
+    "metric": "GRAD",
+    "label": "#6  Gradient diff",
+    "median_streak_pct": 0.09,
+    "mean_streak_pct": 0.12
+  },
+  {
+    "rank": 9,
+    "metric": "OF_SPARSE",
+    "label": "#9  Sparse OF disp",
+    "median_streak_pct": 0.08,
+    "mean_streak_pct": 0.11
+  },
+  {
+    "rank": 10,
+    "metric": "DCT",
+    "label": "#11 DCT diff",
+    "median_streak_pct": 0.08,
+    "mean_streak_pct": 0.11
+  },
+  {
+    "rank": 11,
+    "metric": "OF_MAG",
+    "label": "#8  Optical flow mag",
+    "median_streak_pct": 0.07,
+    "mean_streak_pct": 0.1
+  },
+  {
+    "rank": 12,
+    "metric": "HIST",
+    "label": "#13 Hist Bhattacharyya",
+    "median_streak_pct": 0.07,
+    "mean_streak_pct": 0.07
+  },
+  {
+    "rank": 13,
+    "metric": "PHASE",
+    "label": "#12 Phase shift",
+    "median_streak_pct": 0.04,
+    "mean_streak_pct": 0.06
+  },
+  {
+    "rank": 14,
+    "metric": "CANNY",
+    "label": "#7  Canny edge diff",
+    "median_streak_pct": 0.04,
+    "mean_streak_pct": 0.08
+  }
+]

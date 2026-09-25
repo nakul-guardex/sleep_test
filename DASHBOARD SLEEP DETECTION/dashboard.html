@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modular Person Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --surface: rgba(255, 255, 255, 0.9);
+            --surface-hover: rgba(255, 255, 255, 1);
+            --primary: #ef4444;
+            --primary-glow: rgba(239, 68, 68, 0.4);
+            --text: #0f172a;
+            --text-muted: #475569;
+            --border: rgba(0, 0, 0, 0.1);
+            --accent: #b91c1c;
+        }
+        * { box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { 
+            background: var(--bg); 
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(239, 68, 68, 0.05) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(185, 28, 28, 0.05) 0px, transparent 50%);
+            color: var(--text); margin: 0; padding: 2rem; 
+            min-height: 100vh;
+        }
+        
+        /* Glassmorphism setup */
+        .glass {
+            background: var(--surface);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+        }
+
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem; }
+        h1 { margin: 0; font-weight: 800; font-size: 2.2rem; background: linear-gradient(90deg, var(--primary), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: -0.5px; }
+        
+        /* Upload View */
+        .upload-view {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            text-align: center;
+        }
+        .upload-box {
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            box-shadow: 0 25px 50px -12px rgba(255,255,255,0.7);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .upload-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 30px var(--primary-glow);
+            border-color: rgba(0, 242, 254, 0.3);
+        }
+        .upload-btn {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: #000;
+            border: none;
+            padding: 1rem 2.5rem;
+            border-radius: 99px;
+            font-size: 1.1rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 0 15px var(--primary-glow);
+        }
+        .upload-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px var(--primary-glow);
+        }
+
+        /* Dashboard Layout */
+        .dashboard-container { display: none; gap: 2rem; }
+        .sidebar { width: 320px; flex-shrink: 0; padding: 1.5rem; align-self: flex-start; position: sticky; top: 2rem;}
+        .main { flex-grow: 1; }
+
+        .control-group { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1.5rem; }
+        label { font-size: 0.9rem; font-weight: 600; color: var(--primary); letter-spacing: 0.5px; text-transform: uppercase;}
+        input[type="range"] { width: 100%; cursor: pointer; accent-color: var(--primary); }
+        input[type="number"], input[type="text"], select { background: rgba(255,255,255,0.7); color: var(--text); border: 1px solid var(--border); padding: 0.8rem; border-radius: 8px; outline: none; width: 100%; font-size: 0.95rem; transition: border-color 0.2s; }
+        input[type="number"]:focus, input[type="text"]:focus, select:focus { border-color: var(--primary); box-shadow: 0 0 10px var(--primary-glow); }
+        .value-display { font-size: 0.85rem; color: var(--text-muted); display: flex; justify-content: space-between; font-weight: 600;}
+        
+        .stats { margin-bottom: 1.5rem; font-size: 1.2rem; font-weight: 600; display: flex; justify-content: space-between; align-items: center;}
+        .stats-badge { background: rgba(185, 28, 28, 0.05); color: var(--primary); padding: 0.5rem 1rem; border-radius: 99px; border: 1px solid rgba(0,242,254,0.3); }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
+        .card { overflow: hidden; cursor: pointer; transition: all 0.3s; position: relative;}
+        .card::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 100%;
+            background: linear-gradient(180deg, transparent 60%, rgba(0,0,0,0.8) 100%);
+            z-index: 1; pointer-events: none;
+        }
+        .card:hover { transform: translateY(-8px); box-shadow: 0 20px 30px -10px rgba(0,0,0,0.7); border-color: var(--primary); }
+        .card-images { display: flex; height: 200px; background: #000; position: relative;}
+        .card-images img { width: 50%; object-fit: cover; }
+        .card-body { padding: 1.5rem; position: relative; z-index: 2;}
+        .card-title { font-weight: 800; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center; font-size: 1.2rem; }
+        .tag { background: linear-gradient(90deg, var(--primary), var(--accent)); color: #000; padding: 0.3rem 0.8rem; border-radius: 99px; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.5px;}
+        .metric { font-size: 0.9rem; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+        .metric-val { color: var(--text); font-weight: 600; background: rgba(0,0,0,0.1); padding: 0.2rem 0.6rem; border-radius: 6px;}
+        .metric-highlight { color: var(--primary); font-weight: 800; font-size: 1.2rem; text-shadow: 0 0 10px var(--primary-glow); }
+
+        /* Modal Styles */
+        .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.9); display: flex; justify-content: center; align-items: center; z-index: 1000; opacity: 0; pointer-events: none; transition: opacity 0.3s; backdrop-filter: blur(5px);}
+        .modal-overlay.active { opacity: 1; pointer-events: all; }
+        .modal { width: 1000px; max-width: 95vw; display: flex; flex-direction: column; overflow: hidden; max-height: 95vh; box-shadow: 0 0 40px rgba(0,0,0,0.8); border: 1px solid var(--border);}
+        .modal-header { padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.7);}
+        .modal-header h2 { margin: 0; color: var(--primary); font-size: 1.5rem; font-weight: 800;}
+        .close-btn { background: none; border: none; color: var(--text-muted); font-size: 2rem; cursor: pointer; line-height: 1; transition: color 0.2s;}
+        .close-btn:hover { color: var(--primary); text-shadow: 0 0 10px var(--primary-glow);}
+        .modal-body { padding: 2rem; overflow-y: auto; display: flex; flex-direction: column; gap: 2rem; background: rgba(241, 245, 249, 0.9);}
+        .modal-images { display: flex; gap: 1.5rem; height: 350px; background: rgba(255,255,255,0.7); border-radius: 12px; overflow: hidden; justify-content: center; align-items: center; border: 1px solid var(--border); padding: 1rem;}
+        .modal-images img { max-height: 100%; max-width: 50%; object-fit: contain; border-radius: 8px; box-shadow: 0 10px 15px rgba(255,255,255,0.7);}
+        .chart-container { background: rgba(255,255,255,0.9); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border); position: relative; height: 350px; width: 100%; box-shadow: inset 0 0 20px rgba(255,255,255,0.7);}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Modular Person Tracker</h1>
+    </div>
+
+    <!-- Upload View -->
+    <div class="upload-view" id="uploadView">
+        <div class="glass upload-box">
+            <h2 style="margin: 0; font-size: 2rem; font-weight: 800;">Initialize Dashboard</h2>
+            <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 400px; margin-top: 0;">Select your <span style="color:var(--primary)">global_person_metrics.csv</span> file to load the tracking data.</p>
+            <input type="file" id="csvFileInput" accept=".csv" style="display: none;" onchange="handleFileUpload(event)">
+            <button class="upload-btn" onclick="document.getElementById('csvFileInput').click()">
+                <svg style="width:20px;height:20px;margin-right:8px;vertical-align:text-bottom" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                Select CSV File
+            </button>
+        </div>
+    </div>
+
+    <!-- Dashboard View -->
+    <div class="dashboard-container" id="dashboardView">
+        <!-- Sidebar Filters -->
+        <div class="sidebar glass">
+            <div class="control-group">
+                <label>Track ID (Exact Match)</label>
+                <input type="number" id="trackId" placeholder="Leave empty for all...">
+            </div>
+
+            <div class="control-group">
+                <label>Sliding Window Frames</label>
+                <input type="range" id="frameWindow" min="10" max="500" value="200" step="10">
+                <div class="value-display">
+                    <span id="frameWindowVal">200</span>
+                </div>
+                <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.3rem;">
+                    Checking any continuous sequence of this many frames.
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Target Mean Delta</label>
+                <input type="range" id="diffMin" min="0" max="50" value="0" step="0.5">
+                <input type="range" id="diffMax" min="0" max="50" value="5" step="0.5">
+                <div class="value-display">
+                    <span id="diffMinVal">0.0</span>
+                    <span id="diffMaxVal">5.0</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Target Normalized Delta</label>
+                <input type="range" id="normDiffMin" min="0" max="50" value="0" step="0.1">
+                <input type="range" id="normDiffMax" min="0" max="50" value="50" step="0.1">
+                <div class="value-display">
+                    <span id="normDiffMinVal">0.0</span>
+                    <span id="normDiffMaxVal">50.0</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Camera Stream</label>
+                <select id="cameraSelect">
+                    <option value="all">All Cameras</option>
+                </select>
+            </div>
+            
+            <div style="margin-top: 2rem; font-size: 0.85rem; color: var(--primary); text-align: center; background: rgba(0,242,254,0.1); padding: 1rem; border-radius: 8px; border: 1px solid rgba(0,242,254,0.2);">
+                <span style="display:block; margin-bottom:0.5rem">💡 Pro Tip</span>
+                Click any card to view their detailed frame-by-frame motion graph!
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main">
+            <div class="stats">
+                <span>Tracking Results</span>
+                <span class="stats-badge"><span id="count" style="font-weight: 800;">0</span> matches</span>
+            </div>
+            <div class="grid" id="grid"></div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+        <div class="modal glass" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2 id="modalTitle">Track Details</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <img id="modalCrop" src="" alt="Crop Image">
+                    <img id="modalFull" src="" alt="Full Image">
+                </div>
+                <div class="chart-container">
+                    <canvas id="motionChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allData = [];
+        let chartInstance = null;
+
+        Chart.defaults.color = '#475569';
+        Chart.defaults.borderColor = 'rgba(0,0,0,0.1)';
+        Chart.defaults.font.family = "'Inter', sans-serif";
+
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const text = e.target.result;
+                allData = parseCSV(text);
+                
+                if (allData.length > 0) {
+                    document.getElementById('uploadView').style.display = 'none';
+                    document.getElementById('dashboardView').style.display = 'flex';
+                    initFilters();
+                    render();
+                } else {
+                    alert("No valid data found in CSV!");
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function parseCSV(text) {
+            const lines = text.trim().split('\n');
+            if(lines.length < 2) return [];
+            
+            const headers = lines[0].split(',').map(h => h.trim());
+            const data = [];
+            
+            for(let i=1; i<lines.length; i++) {
+                if(!lines[i].trim()) continue;
+                let vals = [];
+                let inQuote = false;
+                let currentVal = '';
+                
+                for(let c of lines[i]) {
+                    if(c === '"') {
+                        inQuote = !inQuote;
+                    } else if(c === ',' && !inQuote) {
+                        vals.push(currentVal);
+                        currentVal = '';
+                    } else {
+                        currentVal += c;
+                    }
+                }
+                vals.push(currentVal);
+
+                let row = {};
+                headers.forEach((h, idx) => {
+                    let val = vals[idx] ? vals[idx].trim() : '';
+                    if(val.startsWith('"') && val.endsWith('"')) {
+                        val = val.substring(1, val.length - 1);
+                    }
+                    row[h] = val;
+                });
+                
+                try {
+                    let cleanJson = row.diff_history.replace(/""/g, '"');
+                    row.diff_history_arr = JSON.parse(cleanJson);
+                } catch(e) {
+                    row.diff_history_arr = [];
+                }
+                
+                try {
+                    if(row.bbox_area_history) {
+                        let cleanJson2 = row.bbox_area_history.replace(/""/g, '"');
+                        row.bbox_area_arr = JSON.parse(cleanJson2);
+                    } else {
+                        row.bbox_area_arr = [];
+                    }
+                } catch(e) {
+                    row.bbox_area_arr = [];
+                }
+                
+                data.push(row);
+            }
+            return data;
+        }
+
+        function initFilters() {
+            const cams = [...new Set(allData.map(d => d.stream_name))].sort();
+            const sel = document.getElementById('cameraSelect');
+            sel.innerHTML = '<option value="all">All Cameras</option>';
+            cams.forEach(c => {
+                if(c) {
+                    const opt = document.createElement('option');
+                    opt.value = c;
+                    opt.innerText = c;
+                    sel.appendChild(opt);
+                }
+            });
+        }
+
+        function updateLabels() {
+            document.getElementById('frameWindowVal').innerText = document.getElementById('frameWindow').value;
+            document.getElementById('diffMinVal').innerText = document.getElementById('diffMin').value;
+            document.getElementById('diffMaxVal').innerText = document.getElementById('diffMax').value;
+            document.getElementById('normDiffMinVal').innerText = document.getElementById('normDiffMin').value;
+            document.getElementById('normDiffMaxVal').innerText = document.getElementById('normDiffMax').value;
+        }
+
+        function getRelativePath(absolutePath) {
+            if(absolutePath === 'None' || !absolutePath) return '';
+            const parts = absolutePath.split('sleep-detection/');
+            if(parts.length < 2) return absolutePath;
+            let rel = parts[1];
+            return rel.replace(/\/\d{4}-\d{2}-\d{2}\//, '/');
+        }
+
+        function openModal(dataIndex) {
+            const d = allData[dataIndex];
+            
+            document.getElementById('modalTitle').innerText = `Track ID: ${d.track_id} | ${d.stream_name}`;
+            document.getElementById('modalCrop').src = getRelativePath(d.crop_path);
+            document.getElementById('modalFull').src = getRelativePath(d.full_path);
+            
+            const ctx = document.getElementById('motionChart').getContext('2d');
+            
+            if(chartInstance) {
+                chartInstance.destroy();
+            }
+
+            const labels = Array.from({length: d.diff_history_arr.length}, (_, i) => `Frame ${i+1}`);
+            
+            // Add gradient fill
+            const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+            gradient.addColorStop(0, 'rgba(239, 68, 68, 0.5)');
+            gradient.addColorStop(1, 'rgba(239, 68, 68, 0.0)');
+
+            const normalizedDelta = d.diff_history_arr.map((val, i) => {
+                const area = d.bbox_area_arr && d.bbox_area_arr[i] ? d.bbox_area_arr[i] : 1000;
+                // Normalize to "delta per 1000px area" to make it readable on a similar scale
+                return area > 0 ? (val / (area / 1000)) : 0;
+            });
+
+            chartInstance = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Motion Delta',
+                            data: d.diff_history_arr,
+                            borderColor: '#ef4444',
+                            backgroundColor: gradient,
+                            borderWidth: 3,
+                            fill: true,
+                            pointRadius: 0,
+                            pointHoverRadius: 6,
+                            pointHoverBackgroundColor: '#ef4444',
+                            pointHoverBorderColor: '#fff',
+                            tension: 0.3,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: 'Normalized Delta (per 1k px area)',
+                            data: normalizedDelta,
+                            borderColor: '#f59e0b',
+                            backgroundColor: 'transparent',
+                            borderWidth: 2,
+                            borderDash: [5, 5],
+                            fill: false,
+                            pointRadius: 0,
+                            pointHoverRadius: 6,
+                            tension: 0.3,
+                            yAxisID: 'y1'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        legend: { display: true, labels: { color: '#94a3b8' } },
+                        tooltip: {
+                            backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                            titleColor: '#ef4444',
+                            bodyColor: '#0f172a',
+                            borderColor: 'rgba(0,0,0,0.1)',
+                            borderWidth: 1,
+                            padding: 12,
+                            titleFont: {size: 14, weight: 'bold'},
+                            bodyFont: {size: 14}
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { display: false },
+                            ticks: { maxTicksLimit: 10 }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            beginAtZero: true,
+                            grid: { color: 'rgba(0,0,0,0.05)' },
+                            title: {
+                                display: true,
+                                text: 'Raw Delta',
+                                color: '#94a3b8'
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            beginAtZero: true,
+                            grid: { drawOnChartArea: false },
+                            title: {
+                                display: true,
+                                text: 'Normalized Delta',
+                                color: '#f59e0b'
+                            }
+                        }
+                    }
+                }
+            });
+
+            document.getElementById('modalOverlay').classList.add('active');
+        }
+
+        function closeModal(e) {
+            if(e && e.target.id !== 'modalOverlay') return;
+            document.getElementById('modalOverlay').classList.remove('active');
+        }
+
+        function render() {
+            const trackIdSearch = document.getElementById('trackId').value;
+            const frameWindow = parseInt(document.getElementById('frameWindow').value);
+            
+            const diffMin = parseFloat(document.getElementById('diffMin').value);
+            const diffMax = parseFloat(document.getElementById('diffMax').value);
+            const normDiffMin = parseFloat(document.getElementById('normDiffMin').value);
+            const normDiffMax = parseFloat(document.getElementById('normDiffMax').value);
+            const cam = document.getElementById('cameraSelect').value;
+
+            const grid = document.getElementById('grid');
+            grid.innerHTML = '';
+            let count = 0;
+
+            allData.forEach((d, index) => {
+                if(trackIdSearch && d.track_id !== trackIdSearch) return;
+                if(cam !== 'all' && d.stream_name !== cam) return;
+                
+                const history = d.diff_history_arr;
+                const bboxHistory = d.bbox_area_arr || [];
+                if (history.length < frameWindow) return;
+                
+                let passesFilter = false;
+                let currentSum = 0;
+                let currentNormSum = 0;
+                let matchedMean = 0;
+                let matchedNormMean = 0;
+                
+                for(let i = 0; i < history.length; i++) {
+                    let val = history[i];
+                    let area = bboxHistory[i] ? bboxHistory[i] : 1000;
+                    let normVal = area > 0 ? (val / (area / 1000)) : 0;
+                    
+                    currentSum += val;
+                    currentNormSum += normVal;
+                    
+                    if (i >= frameWindow) {
+                        let oldVal = history[i - frameWindow];
+                        let oldArea = bboxHistory[i - frameWindow] ? bboxHistory[i - frameWindow] : 1000;
+                        let oldNormVal = oldArea > 0 ? (oldVal / (oldArea / 1000)) : 0;
+                        
+                        currentSum -= oldVal;
+                        currentNormSum -= oldNormVal;
+                    }
+                    if (i >= frameWindow - 1) {
+                        let subMean = currentSum / frameWindow;
+                        let subNormMean = currentNormSum / frameWindow;
+                        if (subMean >= diffMin && subMean <= diffMax && subNormMean >= normDiffMin && subNormMean <= normDiffMax) {
+                            passesFilter = true;
+                            matchedMean = subMean;
+                            matchedNormMean = subNormMean;
+                            break;
+                        }
+                    }
+                }
+                
+                if (!passesFilter) return;
+                
+                count++;
+                
+                const cropUrl = getRelativePath(d.crop_path);
+                const fullUrl = getRelativePath(d.full_path);
+                
+                const card = document.createElement('div');
+                card.className = 'card glass';
+                card.onclick = () => openModal(index);
+                card.innerHTML = `
+                    <div class="card-images">
+                        <img src="${cropUrl}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiMzMzMiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZmlsbD0iI2ZmZiIgZHk9Ii4zZW0iIHRleHQtYW5jaG9yPSJtaWRkbGUiPk5vIENyb3A8L3RleHQ+PC9zdmc+'" />
+                        <img src="${fullUrl}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiMzMzMiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZmlsbD0iI2ZmZiIgZHk9Ii4zZW0iIHRleHQtYW5jaG9yPSJtaWRkbGUiPk5vIEZ1bGw8L3RleHQ+PC9zdmc+'" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title">
+                            ID: ${d.track_id}
+                            <span class="tag">${d.stream_name}</span>
+                        </div>
+                        <div class="metric"><span>Frames Analyzed</span> <span class="metric-val">${history.length}</span></div>
+                        <div class="metric" style="margin-top:0.8rem"><span>Matched Delta</span> <span class="metric-highlight">${matchedMean.toFixed(2)}</span></div>
+                        <div class="metric" style="margin-top:0.4rem"><span>Matched Norm Delta</span> <span class="metric-highlight">${matchedNormMean.toFixed(2)}</span></div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+
+            document.getElementById('count').innerText = count;
+        }
+
+        const inputs = document.querySelectorAll('input[type="range"], input[type="number"], select');
+        inputs.forEach(el => el.addEventListener('input', () => {
+            updateLabels();
+            render();
+        }));
+    </script>
+</body>
+</html>

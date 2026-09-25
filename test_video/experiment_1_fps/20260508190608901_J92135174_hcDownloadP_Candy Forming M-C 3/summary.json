@@ -1,0 +1,96 @@
+[
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 1,
+    "total_seconds": 202,
+    "mean_diff": 7.31,
+    "motion_spikes_gt_8": 49,
+    "old_logic_pass_W30": "PASS",
+    "old_logic_pass_W60": "PASS",
+    "old_logic_pass_W100": "PASS",
+    "old_best_pass": [
+      60,
+      [
+        0,
+        10
+      ]
+    ],
+    "new_streak_thresh8_sec": 32,
+    "new_streak_thresh5_sec": 24,
+    "new_logic_pass_streak30": "PASS",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "OLD_PASS_NEW_REJECT (Active Worker: 49 spikes > 8, max streak 32s)",
+    "chart": "track_1_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 2,
+    "total_seconds": 299,
+    "mean_diff": 7.82,
+    "motion_spikes_gt_8": 69,
+    "old_logic_pass_W30": "PASS",
+    "old_logic_pass_W60": "PASS",
+    "old_logic_pass_W100": "PASS",
+    "old_best_pass": [
+      60,
+      [
+        0,
+        10
+      ]
+    ],
+    "new_streak_thresh8_sec": 134,
+    "new_streak_thresh5_sec": 24,
+    "new_logic_pass_streak30": "PASS",
+    "new_logic_pass_streak60": "PASS",
+    "new_logic_pass_streak100": "PASS",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_PASS (Sustained Stillness >=100s)",
+    "chart": "track_2_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 3,
+    "total_seconds": 259,
+    "mean_diff": 6.51,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "PASS",
+    "old_logic_pass_W60": "PASS",
+    "old_logic_pass_W100": "PASS",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_streak_thresh8_sec": 259,
+    "new_streak_thresh5_sec": 0,
+    "new_logic_pass_streak30": "PASS",
+    "new_logic_pass_streak60": "PASS",
+    "new_logic_pass_streak100": "PASS",
+    "new_logic_pass_streak200": "PASS",
+    "old_vs_new_verdict": "BOTH_PASS (Sustained Stillness >=100s)",
+    "chart": "track_3_comparison.png"
+  },
+  {
+    "video": "20260508190608901_J92135174_hcDownloadP_Candy Forming M-C 3.MOV",
+    "track_id": 4,
+    "total_seconds": 8,
+    "mean_diff": 8.55,
+    "motion_spikes_gt_8": 5,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": null,
+    "new_streak_thresh8_sec": 2,
+    "new_streak_thresh5_sec": 0,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_4_comparison.png"
+  }
+]

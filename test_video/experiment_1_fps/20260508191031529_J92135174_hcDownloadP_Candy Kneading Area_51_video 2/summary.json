@@ -1,0 +1,397 @@
+[
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 1,
+    "total_seconds": 44,
+    "mean_diff": 4.51,
+    "motion_spikes_gt_8": 1,
+    "old_logic_pass_W30": "PASS",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        5
+      ]
+    ],
+    "new_streak_thresh8_sec": 36,
+    "new_streak_thresh5_sec": 14,
+    "new_logic_pass_streak30": "PASS",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_PASS (Short Stillness >=30s)",
+    "chart": "track_1_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 2,
+    "total_seconds": 96,
+    "mean_diff": 5.05,
+    "motion_spikes_gt_8": 3,
+    "old_logic_pass_W30": "PASS",
+    "old_logic_pass_W60": "PASS",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_streak_thresh8_sec": 87,
+    "new_streak_thresh5_sec": 28,
+    "new_logic_pass_streak30": "PASS",
+    "new_logic_pass_streak60": "PASS",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_PASS (Short Stillness >=30s)",
+    "chart": "track_2_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 3,
+    "total_seconds": 6,
+    "mean_diff": 2.81,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": null,
+    "new_streak_thresh8_sec": 6,
+    "new_streak_thresh5_sec": 6,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_3_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 8,
+    "total_seconds": 19,
+    "mean_diff": 3.73,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        5
+      ]
+    ],
+    "new_streak_thresh8_sec": 19,
+    "new_streak_thresh5_sec": 19,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_8_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 9,
+    "total_seconds": 17,
+    "mean_diff": 1.7,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        3
+      ]
+    ],
+    "new_streak_thresh8_sec": 17,
+    "new_streak_thresh5_sec": 17,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_9_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 10,
+    "total_seconds": 14,
+    "mean_diff": 3.08,
+    "motion_spikes_gt_8": 1,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        5
+      ]
+    ],
+    "new_streak_thresh8_sec": 13,
+    "new_streak_thresh5_sec": 12,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_10_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 11,
+    "total_seconds": 14,
+    "mean_diff": 2.13,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        3
+      ]
+    ],
+    "new_streak_thresh8_sec": 14,
+    "new_streak_thresh5_sec": 13,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_11_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 12,
+    "total_seconds": 23,
+    "mean_diff": 6.96,
+    "motion_spikes_gt_8": 1,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_streak_thresh8_sec": 17,
+    "new_streak_thresh5_sec": 0,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_12_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 13,
+    "total_seconds": 10,
+    "mean_diff": 5.27,
+    "motion_spikes_gt_8": 1,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_streak_thresh8_sec": 7,
+    "new_streak_thresh5_sec": 5,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_13_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 15,
+    "total_seconds": 33,
+    "mean_diff": 4.91,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "PASS",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_streak_thresh8_sec": 33,
+    "new_streak_thresh5_sec": 13,
+    "new_logic_pass_streak30": "PASS",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_PASS (Short Stillness >=30s)",
+    "chart": "track_15_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 16,
+    "total_seconds": 79,
+    "mean_diff": 6.61,
+    "motion_spikes_gt_8": 2,
+    "old_logic_pass_W30": "PASS",
+    "old_logic_pass_W60": "PASS",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        8
+      ]
+    ],
+    "new_streak_thresh8_sec": 68,
+    "new_streak_thresh5_sec": 9,
+    "new_logic_pass_streak30": "PASS",
+    "new_logic_pass_streak60": "PASS",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_PASS (Short Stillness >=30s)",
+    "chart": "track_16_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 17,
+    "total_seconds": 38,
+    "mean_diff": 8.12,
+    "motion_spikes_gt_8": 31,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        10
+      ]
+    ],
+    "new_streak_thresh8_sec": 5,
+    "new_streak_thresh5_sec": 0,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_17_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 18,
+    "total_seconds": 42,
+    "mean_diff": 2.48,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "PASS",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": [
+      10,
+      [
+        0,
+        3
+      ]
+    ],
+    "new_streak_thresh8_sec": 42,
+    "new_streak_thresh5_sec": 42,
+    "new_logic_pass_streak30": "PASS",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_PASS (Short Stillness >=30s)",
+    "chart": "track_18_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 19,
+    "total_seconds": 9,
+    "mean_diff": 2.04,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": null,
+    "new_streak_thresh8_sec": 9,
+    "new_streak_thresh5_sec": 9,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_19_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 21,
+    "total_seconds": 8,
+    "mean_diff": 1.58,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": null,
+    "new_streak_thresh8_sec": 8,
+    "new_streak_thresh5_sec": 8,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_21_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 22,
+    "total_seconds": 6,
+    "mean_diff": 3.81,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": null,
+    "new_streak_thresh8_sec": 6,
+    "new_streak_thresh5_sec": 6,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_22_comparison.png"
+  },
+  {
+    "video": "20260508191031529_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV",
+    "track_id": 23,
+    "total_seconds": 6,
+    "mean_diff": 1.83,
+    "motion_spikes_gt_8": 0,
+    "old_logic_pass_W30": "FAIL",
+    "old_logic_pass_W60": "FAIL",
+    "old_logic_pass_W100": "FAIL",
+    "old_best_pass": null,
+    "new_streak_thresh8_sec": 6,
+    "new_streak_thresh5_sec": 6,
+    "new_logic_pass_streak30": "FAIL",
+    "new_logic_pass_streak60": "FAIL",
+    "new_logic_pass_streak100": "FAIL",
+    "new_logic_pass_streak200": "FAIL",
+    "old_vs_new_verdict": "BOTH_REJECT (Continuous Movement)",
+    "chart": "track_23_comparison.png"
+  }
+]

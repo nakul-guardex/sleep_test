@@ -1,0 +1,9 @@
+video,track_id,total_seconds,mean_diff,motion_spikes_gt_8,old_logic_pass_W30,old_logic_pass_W60,old_logic_pass_W100,old_best_pass,new_streak_thresh8_sec,new_streak_thresh5_sec,new_logic_pass_streak30,new_logic_pass_streak60,new_logic_pass_streak100,new_logic_pass_streak200,old_vs_new_verdict,chart
+20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,1,63,2.86,5,PASS,PASS,FAIL,"(10, (0, 10))",58,58,PASS,FAIL,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_1_comparison.png
+20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,2,118,3.71,0,PASS,PASS,PASS,"(10, (0, 5))",118,118,PASS,PASS,PASS,FAIL,BOTH_PASS (Sustained Stillness >=100s),track_2_comparison.png
+20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,3,116,2.9,0,PASS,PASS,PASS,"(10, (0, 5))",116,116,PASS,PASS,PASS,FAIL,BOTH_PASS (Sustained Stillness >=100s),track_3_comparison.png
+20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,4,82,3.72,0,PASS,PASS,FAIL,"(10, (0, 5))",82,82,PASS,PASS,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_4_comparison.png
+20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,6,42,2.86,0,PASS,FAIL,FAIL,"(10, (0, 5))",42,42,PASS,FAIL,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_6_comparison.png
+20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,8,34,3.93,0,PASS,FAIL,FAIL,"(10, (0, 5))",34,34,PASS,FAIL,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_8_comparison.png
+20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,9,65,3.86,0,PASS,PASS,FAIL,"(10, (0, 5))",65,65,PASS,PASS,FAIL,FAIL,BOTH_PASS (Short Stillness >=30s),track_9_comparison.png
+20260508191733307_J92135174_hcDownloadP_Candy Kneading Area_51_video 2.MOV,10,28,1.93,0,FAIL,FAIL,FAIL,"(10, (0, 3))",28,28,FAIL,FAIL,FAIL,FAIL,BOTH_REJECT (Continuous Movement),track_10_comparison.png

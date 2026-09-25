@@ -1,0 +1,67 @@
+# ── Video files (never commit raw footage) ────────────────────────────────
+*.MOV
+*.mov
+*.mp4
+*.m4v
+*.avi
+*.mkv
+*.wmv
+test_video/*.MOV
+test_video/*.mov
+test_video/*.mp4
+test_video/*.m4v
+
+# ── ML Model weights (too large for git) ──────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.caffemodel
+*.pkl
+*.joblib
+
+# ── macOS junk ────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Python artefacts ──────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE / editor ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Large binary outputs inside annotated_video subfolders ───────────────
+# Keep charts/JSONs/CSVs (small), exclude annotated mp4s
+test_video/anotated_video/**/*.mp4
+test_video/anotated_video_rfdetr/**/*.mp4
+test_video/experiment_1_fps/**/*.mp4
+
+# ── Dummy/temporary data ──────────────────────────────────────────────────
+dummy_data/
+
+# ── Environment / secrets ─────────────────────────────────────────────────
+.env
+*.env
+secrets.json
